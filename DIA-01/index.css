@@ -1,0 +1,72 @@
+body {
+    background-color: #3e3d79;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+#box-pesquisa {
+    margin: auto;
+    width: 500px;
+}
+
+#input-pesquisa {
+    width: 500px;
+    height: 45px;
+    background: #fff;
+    border-radius: 8px;
+    opacity: 0.2;
+}
+
+#checkbox-filmes {
+    margin: auto;
+    margin-top: 25px;
+    width: 350px;
+    text-align: center;
+}
+
+#label-checkbox {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.32px;
+    color: #fff;
+}
+
+#lista-filmes {
+    border: 3px solid black;
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 35px;
+    color: #1D1C3B;
+}
+
+#filme-1 {
+    border: 3px solid green;
+    width: 1224px;
+    height: 201px;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #1D1C3B;
+}
+
+#avatar {
+    border: 3px solid red;
+    position: relative;
+    width: 204px;
+    height: 153.25px;
+    top: 5px;
+    left: 32.33px;
+}
+
+#avatar #imagem-um {
+    border-radius: 800px;
+    position: relative;
+    left: 15%;
+    top: 5%;
+}
+
