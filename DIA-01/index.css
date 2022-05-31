@@ -1,5 +1,5 @@
 body {
-    background-color: #3e3d79;
+    background-color: #17162E;
 }
 
 h2 {
@@ -36,7 +36,6 @@ h2 {
 }
 
 #lista-filmes {
-    border: 3px solid black;
     display: flex;
     flex-flow: row;
     height: 100%;
@@ -46,7 +45,6 @@ h2 {
 }
 
 #filme-1 {
-    border: 3px solid green;
     width: 1224px;
     height: 201px;
     border-radius: 4px;
@@ -55,7 +53,6 @@ h2 {
 }
 
 #avatar {
-    border: 3px solid red;
     position: relative;
     width: 204px;
     height: 153.25px;
@@ -67,6 +64,30 @@ h2 {
     border-radius: 800px;
     position: relative;
     left: 15%;
-    top: 5%;
+    top: 15%;
+}
+
+#avaliacao {
+    position: relative;
+    margin-left: 25%;
+    bottom: 10%;
+}
+
+#nome-filme {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: inherit;
+    bottom: 85px;
+}
+
+#sinopse {
+    position: relative;
+    left: 55%;
+    bottom: 80%;
+    color: #ACACAC;
+    width: 535px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
